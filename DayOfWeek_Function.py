@@ -1,3 +1,4 @@
+
 def weekday(month, day, year):
     leap_years = (year-1)//4
     y = ((year-1)*365)+leap_years
@@ -55,6 +56,7 @@ def weekday(month, day, year):
             y = y + 334
 
     y = y+day
+
     y = y%7
     
     if (y == 0):
